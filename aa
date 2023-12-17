@@ -26,6 +26,7 @@ set number relativenumber
 map Q gq
 
 set easymotion
+let mapleader = "\<space>"
 map <leader>s <Plug>(easymotion-bd-f2)
 map s <Plug>(easymotion-bd-f2)
 map <Leader>l <Plug>(easymotion-bd-jk)
@@ -40,7 +41,6 @@ set surround
 set argtextobj
 set textobj-entire
 
-let mapleader = "\<space>"
 
 nnoremap <Leader>a ggVG"+y
 nnoremap <Leader>u <C-r>
